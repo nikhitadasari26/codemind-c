@@ -4,12 +4,12 @@ int main()
     int X,A,B;
     scanf("%d%d%d",&X,&A,&B);
     int n=A+B*2;
-    if(X>n)
+    if(X<=n)
     {
-        printf("Not Qualify");
+        printf("Qualify");
     }
     else
     {
-        printf("Qualify");
+        printf("Not Qualify");
     }
 }
